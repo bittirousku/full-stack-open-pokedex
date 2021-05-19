@@ -42,3 +42,4 @@ jobs:
           heroku_app_name: fullstack2021-part11-poke
           heroku_email: ${{secrets.HEROKU_EMAIL}}
           healthcheck: "https://fullstack2021-part11-poke.herokuapp.com/health"
+          rollbackonhealthcheckfailed: true
